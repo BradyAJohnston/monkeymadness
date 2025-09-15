@@ -10,6 +10,6 @@ Runt this build script before pushing to the repo to update the add-on.
 
 ## Build Script
 ```bash
-blender --command extension build --source-dir monkeymadess
+blender --command extension build --source-dir monkeymadness
 blender --command extension server-generate --repo-dir . --html
 ```
