@@ -21,8 +21,10 @@ class MONKEYMADESS_OT_add_random_monkey(bpy.types.Operator):
         # 1 in 5 chance to add a torus instead
         if random.randint(1, 5) == 1:
             bpy.ops.mesh.primitive_torus_add(location=loc)
+            self.report({'WARNING'}, "NOT A MONKEY?!?")
         else:
             bpy.ops.mesh.primitive_monkey_add(location=loc)
+            self.report({'INFO'}, "MONKEY!")
         return {"FINISHED"}
 
 

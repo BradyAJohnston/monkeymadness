@@ -6,7 +6,7 @@ Subscribe to this add-on here:
 https://bradyajohnston.github.io/monkeymadness/index.json
 ```
 
-Runt this build script before pushing to the repo to update the add-on.
+Run these build commands to re-build your add-on and the 'extension repo'. Push the changes to GitHub and wait for the website to update.
 
 ## Build Script
 ```bash
