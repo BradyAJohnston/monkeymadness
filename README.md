@@ -1,5 +1,10 @@
 # Example repo for an example add-on!
 
+Subscript to this add-on here:
+
+```
+https://bradyajohnston.github.io/monkeymadness/index.json
+```
 
 ## Build Script
 ```bash
