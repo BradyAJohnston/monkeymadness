@@ -1,0 +1,22 @@
+{
+  "version": "v1",
+  "blocklist": [],
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "monkeymadness",
+      "name": "Monkey Madess",
+      "tagline": "An example extension for BCON25",
+      "version": "1.0.0",
+      "type": "add-on",
+      "maintainer": "Brady Johnston",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "archive_url": "./monkeymadness-1.0.0.zip",
+      "archive_size": 2444,
+      "archive_hash": "sha256:8424fb8156a32e176ea8800365a28f3eeff5331b78c23ac39a8b0dcd3b3d83e7"
+    }
+  ]
+}
